@@ -206,6 +206,7 @@ img{
 /* --------------- BEGIN SMALL SCREEN SIZES --------------- */
     @media screen (min-width:600px) and (max-width:765px)
 
+    .container {
     header, footer{
         background-color: var(--lime-green);
         color: var(--dark-gray);
@@ -232,6 +233,7 @@ img{
         width: 200px;
         max-width: 200px;
     } 
+}
 /* --------------- END SMALL SCREEN SIZES --------------- */
 
 
