@@ -204,9 +204,8 @@ img{
 
 /* ---------- SMALL SCREEN STYLES ---------- */
 /* --------------- BEGIN SMALL SCREEN SIZES --------------- */
-    @media only screen and (min-width:600px) and (max-width:765px)
+    @media only screen (min-width:600px) and (max-width:765px)
 
-    .container {
     header, footer{
         background-color: var(--lime-green);
         color: var(--dark-gray);
@@ -233,14 +232,13 @@ img{
         width: 200px;
         max-width: 200px;
     } 
-}
 /* --------------- END SMALL SCREEN SIZES --------------- */
 
 
 
 /* ---------- MEDIUM SCREEN STYLES ---------- */
 /* --------------- BEGIN MEDIUM SCREEN SIZES --------------- */
-    @media only screen and (min-width:768px) and (max-width:888px)
+    @media only screen and(min-width:768px) and (max-width:888px)
 
     header, footer{
         background-color: var(--black);
